@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import com.easyget.terminal.base.view.control.InputPane?>
+<?import com.easyget.terminal.base.view.control.KeyPane?>
+<?import com.easyget.terminal.base.view.control.ErrorLabel?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2"
+	fx:controller="com.easyget.terminal.base.controller.TakeController">
+	<children>
+	  <HBox spacing="10">
+	    <InputPane fx:id="takeCode" prompt="请输入提取码" maxLength="6" prefWidth="290" prefHeight="80"/>
+	 	<Button prefHeight="80" prefWidth="118" text="领取" styleClass="button-take" onMouseClicked="#btnTakeEvent"/>
+	  </HBox>
+	  <ErrorLabel fx:id="errorLabel" prefHeight="60"/>
+      <KeyPane fx:id="keyPane" styleClass="glass-pane"/>
+	</children>
+	<stylesheets>
+	  <String fx:value="base/css/mian.css"/>
+	</stylesheets>
+</VBox>

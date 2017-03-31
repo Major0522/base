@@ -1,0 +1,8 @@
+[ 
+    {
+        "layoutX":527,
+        "layoutY":163,
+        "self":"/base/fxml/TakePane.fxml",
+        "parent":"/home/fxml/Home.fxml"
+     }
+]

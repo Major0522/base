@@ -1,0 +1,52 @@
+.root {
+	-fx-font-family: "Microsoft YaHei";
+}
+
+.background{
+	-fx-background-color: rgba(0.0,0.0,0.0,0.5);
+}
+
+.label-info {
+	-fx-font-size:30;
+	-fx-text-fill:#ed7020;
+	-fx-font-weight:bold;
+}
+
+.label-content {
+	-fx-font-size: 24.0;
+	-fx-text-fill: #999999;
+	-fx-wrap-text: true;
+}
+
+.button-main{
+	-fx-font-size: 30.0;
+	-fx-font-weight:bold;
+	-fx-text-fill: #ffffff;
+	
+	-fx-background-color: #ed7020;
+	-fx-background-radius: 5.0;
+}
+.button-main:pressed {
+	-fx-font-size: 30.0;
+	-fx-font-weight:bold;
+	-fx-text-fill: #ffffff;
+	
+	-fx-background-color: #fca167;
+	-fx-background-radius: 5.0;
+}
+.button-sub {
+	-fx-font-size: 24.0;
+	-fx-text-fill: #ed7020;
+	-fx-background-radius:8.0;
+	-fx-background-color: rgba(255.0,255.0,255.0,0.0);
+	
+	-fx-border-color:#ed7020;
+	-fx-border-radius:8.0;
+	-fx-border-width:2.0;
+}
+.button-sub:pressed {
+	-fx-font-size: 24.0;
+	-fx-text-fill: white;
+	-fx-background-color: #ed7020;
+	-fx-background-radius: 8.0;
+}
